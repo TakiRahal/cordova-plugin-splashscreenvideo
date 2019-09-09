@@ -16,9 +16,6 @@
 	<js-module src="www/splashscreenvideo.js" name="splashscreenvideo">
 		<clobbers target="navigator.splashscreenvideo" />
 	</js-module>
-	
-	<!-- drawable src/android/resources -->
-	<resource-file src="src/android/res/raw/start_animation.mp4" target="res/raw/start_animation.mp4" />
 		
 	<!-- android -->
     <platform name="android">
@@ -30,6 +27,7 @@
         </config-file>
 
         <source-file src="src/android/SplashScreenVideo.java" target-dir="src/org/takirahal/cordova/splashscreenvideo" />
+		<source-file src="src/android/res/raw/start_animation.mp4" target-dir="res/raw/start_animation.mp4" />
     </platform>
 
     <!-- ios -->
