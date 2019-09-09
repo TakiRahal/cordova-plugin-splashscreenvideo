@@ -17,6 +17,9 @@
 		<clobbers target="navigator.splashscreenvideo" />
 	</js-module>
 	
+	<!-- drawable src/android/resources -->
+	<resource-file src="src/android/res/raw/start_animation.mp4" target="res/raw/start_animation.mp4" />
+		
 	<!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
