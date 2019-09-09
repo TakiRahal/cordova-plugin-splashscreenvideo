@@ -1,0 +1,47 @@
+{
+  "name": "cordova-plugin-splashscreenvideo",
+  "version": "1.0.0",
+  "description": "Cordova SplashScreenVideo Plugin",
+  "types": "./types/index.d.ts",
+  "cordova": {
+    "id": "cordova-plugin-splashscreenvideo",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": "github:apache/cordova-plugin-splashscreen",
+  "bugs": "https://github.com/TakiRahal/cordova-plugin-splashscreenvideo/issues",
+  "keywords": [
+    "cordova",
+    "splashscreen",
+	"splashscreenvideo",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "scripts": {
+    "test": "npm run jshint",
+    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "2.0.0": {
+        "cordova-android": ">=3.6.0"
+      },
+      "4.0.0": {
+        "cordova-android": ">=3.6.0"
+      },
+      "6.0.0": {
+        "cordova": ">100"
+      }
+    },
+    "node": ">=6.0.0"
+  },
+  "author": "Taki Eddine Rahal",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  },
+  "homepage": "https://cordova.apache.org/"
+}
