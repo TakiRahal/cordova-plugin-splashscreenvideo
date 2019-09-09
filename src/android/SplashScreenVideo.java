@@ -17,7 +17,7 @@
        under the License.
 */
 
-package org.apache.cordova.splashscreen;
+package org.takirahal.cordova.splashscreenvideo;
 
 
 import android.graphics.Rect;
@@ -56,7 +56,7 @@ import org.apache.cordova.CordovaWebView;
 import org.json.JSONArray;
 import org.json.JSONException;
 
-import io.cordova.hellocordova.R;
+// import io.cordova.hellocordova.R;
 
 public class SplashScreenVideo extends CordovaPlugin {
     private static final String LOG_TAG = "SplashScreenVideo";
