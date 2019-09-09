@@ -17,7 +17,7 @@
        under the License.
 */
 
-package org.takirahal.cordova.splashscreenvideo;
+package org.apache.cordova.splashscreen;
 
 
 import android.graphics.Rect;
@@ -48,6 +48,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
+import android.content.res.Resources;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
@@ -55,9 +56,10 @@ import org.apache.cordova.CordovaWebView;
 import org.json.JSONArray;
 import org.json.JSONException;
 
-import gov.pifss.oci.R;
-public class SplashScreenVideo extends CordovaPlugin {
-    private static final String LOG_TAG = "SplashScreenVideo";
+import io.cordova.hellocordova.R;
+
+public class SplashScreen extends CordovaPlugin {
+    private static final String LOG_TAG = "SplashScreen";
     // Cordova 3.x.x has a copy of this plugin bundled with it (SplashScreenInternal.java).
     // Enable functionality only if running on 4.x.x.
     private static final boolean HAS_BUILT_IN_SPLASH_SCREEN = Integer.valueOf(CordovaWebView.CORDOVA_VERSION.split("\\.")[0]) < 4;
@@ -215,7 +217,9 @@ public class SplashScreenVideo extends CordovaPlugin {
                 // Create and show the dialog
                 videoHolder = new VideoView(context);
                 //Uri video = Uri.parse("android.resource://com.telenorhealth.tonicapp/raw/splash");
-                Uri video = Uri.parse("android.resource://" + cordova.getActivity().getClass().getPackage().getName() + "/"+ R.raw.start_animation);
+				Resources activityRes = cordova.getActivity().getResources();
+				int closeResId = activityRes.getIdentifier("start_animation", "raw", cordova.getActivity().getPackageName());
+                Uri video = Uri.parse("android.resource://" + cordova.getActivity().getClass().getPackage().getName() + "/"+ closeResId/*R.raw.start_animation*/);
                 videoHolder.setVideoURI(video);
                 videoHolder.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
                     public void onCompletion(MediaPlayer mp) {
@@ -261,11 +265,12 @@ public class SplashScreenVideo extends CordovaPlugin {
                 splashDialog.setCancelable(false);
                 splashDialog.show();
                 //add Video view background as a backup. if the video does not play
+				final int screenResId = activityRes.getIdentifier("screen", "drawable", cordova.getActivity().getPackageName());
                 final Handler delayer = new Handler();
                 delayer.postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        videoHolder.setBackgroundResource(R.drawable.screen);
+                        videoHolder.setBackgroundResource(screenResId/*R.drawable.screen*/);
                     }
                 }, 1000);
             }
