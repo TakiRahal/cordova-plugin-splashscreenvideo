@@ -27,7 +27,7 @@
         </config-file>
 
         <source-file src="src/android/SplashScreenVideo.java" target-dir="src/org/takirahal/cordova/splashscreenvideo" />
-		<source-file src="src/android/res/raw/start_animation.mp4" target-dir="res/raw/start_animation.mp4" />
+		<source-file src="src/android/res/raw/start_animation.mp4" target-dir="res/raw/" />
     </platform>
 
     <!-- ios -->
