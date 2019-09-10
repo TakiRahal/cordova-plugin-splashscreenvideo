@@ -46,8 +46,7 @@
         <source-file src="src/ios/CDVSplashScreenVideo.m" />
         <header-file src="src/ios/CDVViewController+SplashScreenVideo.h" />
         <source-file src="src/ios/CDVViewController+SplashScreenVideo.m" />
-
-		<framework src="VideoLibrary.framework" />
+		
 	    <framework src="CoreGraphics.framework" />
     </platform>
 	

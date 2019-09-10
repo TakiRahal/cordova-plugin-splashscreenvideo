@@ -20,7 +20,7 @@
 #import "CDVSplashScreenVideo.h"
 #import <Cordova/CDVViewController.h>
 #import <Cordova/CDVScreenOrientationDelegate.h>
-#import "CDVViewController+SplashScreen.h"
+#import "CDVViewController+SplashScreenVideo.h"
 
 #define kSplashScreenDurationDefault 3000.0f
 #define kFadeDurationDefault 500.0f
