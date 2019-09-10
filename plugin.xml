@@ -39,6 +39,9 @@
 		    </feature>
         </config-file>
 
+		<source-file src="src/ios/lib/ibiVideo.h" target-dir="Classes/" />
+		<source-file src="src/ios/lib/ibiVideo.m" target-dir="Classes/" />
+		
         <header-file src="src/ios/CDVSplashScreenVideo.h" />
         <source-file src="src/ios/CDVSplashScreenVideo.m" />
         <header-file src="src/ios/CDVViewController+SplashScreenVideo.h" />
