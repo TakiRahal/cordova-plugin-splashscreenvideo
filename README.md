@@ -17,9 +17,9 @@
     
   
 ## **3 . Screenshots**  
-  
-    ![enter image description here](https://github.com/TakiRahal/cordova-plugin-splashscreenvideo/blob/master/www/android/Screenshot_20200109-151819_%20.jpg) ![enter image description here](https://github.com/TakiRahal/cordova-plugin-splashscreenvideo/blob/master/www/android/Screenshot_20200109-151457_%20.jpg)
+  ![enter image description here](https://raw.githubusercontent.com/TakiRahal/cordova-plugin-splashscreenvideo/master/www/android/Splash0.jpg)
 
+![enter image description here](https://raw.githubusercontent.com/TakiRahal/cordova-plugin-splashscreenvideo/master/www/android/Splash1.jpg)
 ## **4. Installation**  
   
   - Download Cordova project : cordova create Your_Cordova_Project    
