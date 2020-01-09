@@ -55,13 +55,13 @@
   + Copy two files (ibiVideo.h, ibiVideo.m) from cordova-plugin-splashscreenvideo/src/ios/  
     to iOSNativePlatforms/Classes        
       
-    => Copy reference and select checkbox  
+    => Copy reference and select checkbox "Copy Items if needed" and "Crerate folder reference" and "Add to targets"
       
   + Copy of content from cordova-plugin-splashscreenvideo/src/ios/AppDelegate.m and Past in iOSNativePlatforms/Classes/AppDelegate.m  
       
   + Copy source of video animation "start_animation.mp4" to iOSNativePlatforms/Resources   
-    and check checkbox   
-      
+    and check checkbox  "Copy items if needed" and "Create folder references" and "Add to targets"
+       
   + Run Your Project  
       
 
