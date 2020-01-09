@@ -47,7 +47,11 @@
       
   + Add video animation, int this folder (raw) with name "start_animation.mp4"  
       
-  + Run your project
+  + Add first frame (*.png) of your video to folder /res/screen/android
+  
+  + Run : cordova prepare 
+      
+  + Run your project : cordova run android
    
 - For platform iOS  
   
@@ -63,7 +67,11 @@
   + Copy source of video animation "start_animation.mp4" to iOSNativePlatforms/Resources   
     and check checkbox  "Copy items if needed" and "Create folder references" and "Add to targets"
        
-  + Run Your Project  
+  + Add first frame (*.png) of your video to folder /res/screen/ios
+    
+  + Run : cordova prepare      
+  
+  + Run your project  
       
 
 ## 5. Demo
