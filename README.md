@@ -47,7 +47,8 @@
       
   + Add video animation, int this folder (raw) with name "start_animation.mp4"  
       
-      
+  + Run your project
+   
 - For platform iOS  
   
   + Open Your Project with Xcode  
