@@ -64,8 +64,5 @@
       
   + Run Your Project  
       
-**
 
 ## 5. Demo
-
-**
