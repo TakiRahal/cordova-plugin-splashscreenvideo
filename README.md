@@ -69,3 +69,7 @@
         
   
 ## 5. Demo
+
+Demo Android: 
+
+Demo iOS : https://www.youtube.com/watch?v=ZxsdN5_lLa0&feature=youtu.be
