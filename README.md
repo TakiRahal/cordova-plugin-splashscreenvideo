@@ -70,6 +70,6 @@
   
 ## 5. Demo
 
-Demo Android: 
+Demo Android : https://www.youtube.com/watch?v=jd76Ij6KHJw
 
-Demo iOS : https://www.youtube.com/watch?v=ZxsdN5_lLa0&feature=youtu.be
+Demo iOS : https://www.youtube.com/watch?v=ZxsdN5_lLa0
