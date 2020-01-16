@@ -14,13 +14,23 @@ Demo iOS : https://www.youtube.com/watch?v=ZxsdN5_lLa0
    
 ## **3. Supported Platforms**  
   
-  - Android    
+- Android    
     
 - iPhone    
     
 - iPad    
     
-## **4. Installation**  
+    
+## **4. Compatibility**
+
+
+- Cordova 3.5+
+    
+- Android 4.4+
+  
+- iOS 10+
+    
+## **5. Installation**  
   
   - Download Cordova project : cordova create Your_Cordova_Project    
     
