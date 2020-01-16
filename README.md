@@ -2,12 +2,17 @@
   
 ***SplashScreen Video  for Cordova Application***     
     
+## 1. Demo
+
+Demo Android : https://www.youtube.com/watch?v=jd76Ij6KHJw
+
+Demo iOS : https://www.youtube.com/watch?v=ZxsdN5_lLa0
    
-## **1. Introduction**  
+## **2. Introduction**  
   
-  `For many projects based of Cordova, we need to add video SplashScreen, I shared with you this tutorial`    
+  `This tutorial shows how to displays a video splash screen  on cordva based project`    
    
-## **2. Supported Platforms**  
+## **3. Supported Platforms**  
   
   - Android    
     
@@ -15,9 +20,6 @@
     
 - iPad    
     
-  
-## **3 . Screenshots**  
-  ![enter image description here](https://raw.githubusercontent.com/TakiRahal/cordova-plugin-splashscreenvideo/master/www/android/Splash0.jpg) ![enter image description here](https://raw.githubusercontent.com/TakiRahal/cordova-plugin-splashscreenvideo/master/www/android/Splash1.jpg)
 ## **4. Installation**  
   
   - Download Cordova project : cordova create Your_Cordova_Project    
@@ -68,8 +70,3 @@
   + Run your project    
         
   
-## 5. Demo
-
-Demo Android : https://www.youtube.com/watch?v=jd76Ij6KHJw
-
-Demo iOS : https://www.youtube.com/watch?v=ZxsdN5_lLa0
